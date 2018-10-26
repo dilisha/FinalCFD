@@ -1,10 +1,26 @@
 <resources>
 
-    <string name="app_name">resourcetrack1</string>
+    <string name="app_name">Flood Management</string>
     <string name="add_textbox_hint">Add a ToDo item</string>
     <string name="add_button_text">Add</string>
     <string name="service_title">Mobile Apps </string>
     <string name="menu_refresh">Refresh</string>
     <string name="checkbox_text">Item Text</string>
+    <string name="image1">contribution</string>
+    <string name="textvalue1">Contribute</string>
+    <string name="textvalue2">Click here to pay through Debit Card / Credit Card / Internet Banking / UPI</string>
+    <string name="textValue2">Location Of Relief Camps</string>
+    <string name="textView3">add/remove Relief Camps</string>
+    <string name="login">Login</string>
+    <string name="password">Password</string>
+    <string name="contact">contact Number</string>
+    <string name="add">Add</string>
+    <string name="locButton">Get Current Location</string>
+    <string name="get_your_location">Get Current Location</string>
+    <string name="confirm_location">Confirm Your Location</string>
+    <string name="click_here_if_you_need_help">Click here if you need help</string>
+    <string name="click_here_if_you_are_a_help_provider">Click here if you are a help provider</string>
+    <string name="title_activity_relief_login">Sign in</string>
+    <string name="list_of_people_s_location_needing_help">List of people\'s location needing help</string>
 
 </resources>

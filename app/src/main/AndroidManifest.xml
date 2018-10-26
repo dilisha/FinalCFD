@@ -1,27 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.resourcetrack1"
     android:versionCode="1"
-    android:versionName="1.0" >
+    android:versionName="1.0">
 
-    <uses-sdk
-        android:minSdkVersion="8"
-        android:targetSdkVersion="18" />
-
+    <!--    <uses-sdk android:targetSdkVersion="18" /> -->
     <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/logo"
         android:label="@string/app_name"
-        android:theme="@style/AppTheme" >
-
-        <activity android:name="ToDoActivity"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
             android:label="@string/app_name">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".contributeActivity"
+            android:label="Contribute"/>
+        <activity android:name=".contribute1"
+            android:label="Contribute"/>
+        <activity android:name=".ReliefCamps"
+            android:label="Relief Camps"/>
+        <activity android:name=".AdminLoginAddCamps"
+            android:label="Relief Camps: Login"/>
+        <activity android:name=".AddCamps"
+            android:label="Relief Camps: Add Camps"/>
+        <activity android:name=".DeleteCamps"
+            android:label="Relief Camps: Remove Camps"></activity>
+        <activity android:name=".CallForHelp"
+            android:label="Call For Help"/>
+        <activity android:name=".ReliefCampLogin"
+            android:label="Call For Help: Login"/>
+        <activity android:name=".CallForHelpMenu"
+            android:label="Call For Help: Menu"/>
+        <activity android:name=".ProvideHelp"
+            android:label="Call For Help"></activity>
+
     </application>
 
 </manifest>
